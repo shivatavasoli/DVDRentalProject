@@ -1,7 +1,7 @@
 with c as (
 Select store.store_id,
 film_category.category_id,
-category.name, 
+category.name genre, 
 count(inventory.film_id) as frequency,
 sum(payment.amount) revenue
 From store
