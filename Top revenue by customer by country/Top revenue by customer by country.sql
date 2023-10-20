@@ -6,7 +6,7 @@ max(cs.email) AS Email ,
 max(ad.address) address, 
 max(ad.district) district, 
 max(ci.city) city, 
-sum(p.amount) AS Sales
+sum(p.amount) AS revenue
 from country c
 join city ci using (country_id)
 join address ad on ci.city_id = ad.city_id
