@@ -1,0 +1,7 @@
+"store_id","address","return_status","films count"
+1,"47 MySakila Drive","Returned early","3380"
+2,"28 MySQL Boulevard","Returned early","3484"
+1,"47 MySakila Drive","Returned late","3714"
+2,"28 MySQL Boulevard","Returned late","3738"
+1,"47 MySakila Drive","Returned on time","829"
+2,"28 MySQL Boulevard","Returned on time","899"
